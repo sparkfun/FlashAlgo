@@ -1,0 +1,9 @@
+common:
+    group_name:
+        - flash_driver
+    includes:
+        - source
+        - source/ambiq
+        - source/ambiq/CMSIS/AmbiqMicro/Include
+        - source/ambiq/CMSIS/ARM/Include
+    sources:

@@ -1,0 +1,18 @@
+common:
+    target:
+        - cortex-m4
+    group_name:
+        - flash_driver
+    includes:
+        - source/ambiq/ama3b1kk
+        - source/ambiq/ama3b1kk/mcu
+        - source/ambiq/ama3b1kk/mcu/apollo3
+    sources:
+        - source/ambiq/CMSIS/AmbiqMicro/Source/system_apollo3.c
+        # - source/ambiq/apa3b1kk/FlashDev.c
+        # - source/ambiq/apa3b1kk/FlashPrg.c
+        # - source/ambiq/apa3b1kk/qspi_ip6514e/lib/mt25ql_flash_lib.c
+        # - source/ambiq/apa3b1kk/qspi_ip6514e/native_driver/qspi_ip6514e_drv.c
+    macros:
+        # - MUSCA_QSPI_REG_BASE=0x5010A000UL
+        # - MUSCA_QSPI_FLASH_BASE=0x00200000UL
