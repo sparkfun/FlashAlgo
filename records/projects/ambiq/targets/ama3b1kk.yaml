@@ -9,10 +9,10 @@ common:
         - source/ambiq/ama3b1kk/mcu/apollo3
     sources:
         - source/ambiq/CMSIS/AmbiqMicro/Source/system_apollo3.c
-        # - source/ambiq/apa3b1kk/FlashDev.c
-        # - source/ambiq/apa3b1kk/FlashPrg.c
-        # - source/ambiq/apa3b1kk/qspi_ip6514e/lib/mt25ql_flash_lib.c
-        # - source/ambiq/apa3b1kk/qspi_ip6514e/native_driver/qspi_ip6514e_drv.c
-    macros:
-        # - MUSCA_QSPI_REG_BASE=0x5010A000UL
-        # - MUSCA_QSPI_FLASH_BASE=0x00200000UL
+        - source/ambiq/ama3b1kk/mcu/apollo3/hal/am_hal_cachectrl.c
+        - source/ambiq/ama3b1kk/mcu/apollo3/hal/am_hal_clkgen.c
+        - source/ambiq/ama3b1kk/mcu/apollo3/hal/am_hal_flash.c
+        - source/ambiq/ama3b1kk/mcu/apollo3/hal/am_hal_interrupt.c
+        - source/ambiq/ama3b1kk/mcu/apollo3/hal/am_hal_reset.c
+        - source/ambiq/ama3b1kk/FlashDev.c
+        - source/ambiq/ama3b1kk/FlashPrg.c

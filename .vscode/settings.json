@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "am_reg_jedec.h": "c"
-    }
+        "am_reg_jedec.h": "c",
+        "apollo3.h": "c",
+        "am_mcu_apollo.h": "c"
+    },
+    "python.pythonPath": "venv\\Scripts\\python.exe"
 }

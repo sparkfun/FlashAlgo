@@ -51,6 +51,7 @@
 #include "regs/am_reg_m4.h"
 #include "regs/am_reg_jedec.h"
 
+#include "hal/am_hal_status.h"
 #include "hal/am_hal_cachectrl.h"
 #include "hal/am_hal_clkgen.h"
 #include "hal/am_hal_flash.h"

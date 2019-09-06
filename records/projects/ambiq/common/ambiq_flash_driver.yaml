@@ -6,4 +6,3 @@ common:
         - source/ambiq
         - source/ambiq/CMSIS/AmbiqMicro/Include
         - source/ambiq/CMSIS/ARM/Include
-    sources:
