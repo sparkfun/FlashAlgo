@@ -25,13 +25,13 @@ struct FlashDevice const FlashDevice = {
     FLASH_DRV_VERS,             // Driver Version, do not modify!
     DEVICE_NAME,                // Device Name (128 chars max)
     ONCHIP,                     // Device Type
-    0x0000C000,                 // Device Start Address
+    0x00000000,                 // Device Start Address
     0x00100000,                 // Device Size (1MB)
     0x00000200,                 // Programming Page Size
     0x00000000,                 // Reserved, must be 0
     0xFF,                       // Initial Content of Erased Memory
     0x00000064,                 // Program Page Timeout 100 mSec
     0x00000BB8,                 // Erase Sector Timeout 3000 mSec
-    {{0x00000400, 0x00000000},  // Sector Size {1kB, starting at address 0}
+    {{0x00002000, 0x00000000},  // Sector Size {8kB, starting at address 0}
     {SECTOR_END}}
 };
